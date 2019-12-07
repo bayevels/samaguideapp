@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SamaGuideApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="discussion">Discussion</string>
+    <string name="claim">Réclamations</string>
+    <string name="more">Plus</string>
 </resources>
