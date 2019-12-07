@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/claimFragment"
+        android:name="com.samaguide.samaguide.ui.claim.ClaimFragment"
+        android:label="fragment_claim"
+        tools:layout="@layout/fragment_claim" />
+    <fragment
+        android:id="@+id/moreFragment"
+        android:name="com.samaguide.samaguide.ui.more.MoreFragment"
+        android:label="fragment_more"
+        tools:layout="@layout/fragment_more" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.samaguide.samaguide.ui.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+</navigation>
